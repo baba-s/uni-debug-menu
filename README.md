@@ -2,6 +2,12 @@
 
 横向きかつクリックやタップ可能なゲームで使用できるカスタマイズ可能なデバッグメニュー  
 
+[![](https://img.shields.io/github/release/baba-s/uni-debug-menu.svg?label=latest%20version)](https://github.com/baba-s/uni-debug-menu/releases)
+[![](https://img.shields.io/github/release-date/baba-s/uni-debug-menu.svg)](https://github.com/baba-s/uni-debug-menu/releases)
+![](https://img.shields.io/badge/Unity-2018.3%2B-red.svg)
+![](https://img.shields.io/badge/.NET-4.x%2B-orange.svg)
+[![](https://img.shields.io/github/license/baba-s/uni-debug-menu.svg)](https://github.com/baba-s/uni-debug-menu/blob/master/LICENSE)
+
 ## 機能
 
 - 3種類のメニュー表示を使用可能
