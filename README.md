@@ -5,7 +5,7 @@
 [![](https://img.shields.io/github/release/baba-s/uni-debug-menu.svg?label=latest%20version)](https://github.com/baba-s/uni-debug-menu/releases)
 [![](https://img.shields.io/github/release-date/baba-s/uni-debug-menu.svg)](https://github.com/baba-s/uni-debug-menu/releases)
 ![](https://img.shields.io/badge/Unity-2018.3%2B-red.svg)
-![](https://img.shields.io/badge/.NET-4.x%2B-orange.svg)
+![](https://img.shields.io/badge/.NET-4.x-orange.svg)
 [![](https://img.shields.io/github/license/baba-s/uni-debug-menu.svg)](https://github.com/baba-s/uni-debug-menu/blob/master/LICENSE)
 
 ## 機能
@@ -292,3 +292,9 @@ namespace UniDebugMenu.Example
     }
 }
 ```
+
+# ライセンス
+
+- このリポジトリは下記のアセットを使用させていただいております  
+	- [Unity_UI_Samples](https://github.com/tsubaki/Unity_UI_Samples)  
+	- [Rounded Mgen+](http://jikasei.me/font/rounded-mgenplus/)
