@@ -112,9 +112,12 @@
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190318/20190318122547.png)
 
-## スクリプト
+## 使い方
 
-### 基本
+- 「Assets/UniDebugMenu/Example」に含まれているシーンやスクリプトを  
+参考にしていただければと思います  
+
+### デバッグメニューを呼び出すサンプル
 
 ```cs
 using UnityEngine;
@@ -200,7 +203,7 @@ namespace UniDebugMenu.Example
 }
 ```
 
-### リスト生成
+### リストを作成するサンプル
 
 ```cs
 using System;
@@ -293,7 +296,7 @@ namespace UniDebugMenu.Example
 }
 ```
 
-# ライセンス
+## ライセンス
 
 - このリポジトリは下記のアセットを使用させていただいております  
 	- [Unity_UI_Samples](https://github.com/tsubaki/Unity_UI_Samples)  
