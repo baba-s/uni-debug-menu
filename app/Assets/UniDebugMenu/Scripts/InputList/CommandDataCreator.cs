@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UniDebugMenu.Example
+namespace UniDebugMenu
 {
 	/// <summary>
 	/// コマンドのリストの UI のデータを作成して返すクラス
