@@ -35,7 +35,7 @@ namespace UniDebugMenu.Example
 				m_summary = report.text.Split( new [] { NL }, StringSplitOptions.None ).FirstOrDefault();
 				m_text = report.text;
 				m_listText = $"{m_time}: {m_summary}";
-				m_detailText = $"{m_time}{NL}{NL}{NL}{m_text}";
+				m_detailText = $"{m_time}{NL} {NL}{m_text}";
 			}
 		}
 
