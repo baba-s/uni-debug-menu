@@ -55,6 +55,7 @@ namespace UniDebugMenu.Example
 				new ActionData( "システムコマンド"			, () => OpenAdd( DMType.COMMAND_TAB_6	, new SystemCommandListCreator() ) ),
 				new ActionData( "ゲームオブジェクト一覧"	, () => OpenAdd( DMType.COMMAND_TAB_6	, new GameObjectListCreator() ) ),
 				new ActionData( "ログ情報"					, () => OpenAdd( DMType.TEXT_TAB_6		, m_logDataCreator ) ),
+				new ActionData( "iOS クラッシュ情報"		, () => OpenAdd( DMType.TEXT_TAB_6		, new iOSCrashReportListCreator() ) ),
 			};
 		}
 
