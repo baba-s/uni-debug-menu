@@ -1,7 +1,8 @@
-﻿using UniDebugMenu.Example;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UniDebugMenu.Example;
+using UnityEngine;
 
 namespace UniDebugMenu
 {
@@ -20,11 +21,17 @@ namespace UniDebugMenu
 		// 変数
 		//==============================================================================
 		private IList<ActionData> m_list;
+		private string m_text;
 
 		//==============================================================================
 		// プロパティ
 		//==============================================================================
 		public override int Count => m_list.Count;
+
+		public override ActionData[] OptionActionList => new []
+		{
+			new ActionData( "コピー", () => GUIUtility.systemCopyBuffer = m_text ),
+		};
 
 		//==============================================================================
 		// 関数
@@ -34,6 +41,8 @@ namespace UniDebugMenu
 		/// </summary>
 		public SimpleTextListDataCreator( string text )
 		{
+			m_text = text;
+
 			if ( string.IsNullOrWhiteSpace( text ) )
 			{
 				m_sourceList = new ActionData[ 0 ];
