@@ -165,6 +165,15 @@ namespace UniDebugMenu.Example
 					() => "Caching.ClearCache",
 					new ActionData( "実行"	, () => Caching.ClearCache() )
 				),
+				creator.Create
+				(
+					TabType.NONE,
+					() => "ForceCrash",
+					new ActionData( "AccessViolation"		, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.AccessViolation		) ),
+					new ActionData( "FatalError"			, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.FatalError			) ),
+					new ActionData( "Abort"					, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.Abort					) ),
+					new ActionData( "PureVirtualFunction"	, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.PureVirtualFunction	) )
+				),
 			};
 		}
 
