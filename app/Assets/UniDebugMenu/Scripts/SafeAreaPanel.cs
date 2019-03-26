@@ -2,6 +2,9 @@
 
 namespace UniDebugMenu.Internal
 {
+	/// <summary>
+	/// セーフエリアに対応した uGUI のパネル
+	/// </summary>
 	public sealed class SafeAreaPanel : MonoBehaviour
 	{
 		//==============================================================================
