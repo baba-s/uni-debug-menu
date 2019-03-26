@@ -48,14 +48,16 @@ namespace UniDebugMenu.Example
 		{
 			m_sourceList = new []
 			{
-				new ActionData( "テキスト表示サンプル"		, () => OpenAdd( DMType.TEXT_TAB_6		, new TextListCreatorExample() ) ),
-				new ActionData( "ボタン表示サンプル 2列"	, () => OpenAdd( DMType.BUTTON_COL_2	, new TextListCreatorExample() ) ),
-				new ActionData( "ボタン表示サンプル 3列"	, () => OpenAdd( DMType.BUTTON_COL_3	, new TextListCreatorExample() ) ),
-				new ActionData( "システム情報"				, () => OpenAdd( DMType.TEXT_TAB_6		, new SystemInfoListCreator() ) ),
-				new ActionData( "システムコマンド"			, () => OpenAdd( DMType.COMMAND_TAB_6	, new SystemCommandListCreator() ) ),
-				new ActionData( "ゲームオブジェクト一覧"	, () => OpenAdd( DMType.COMMAND_TAB_6	, new GameObjectListCreator() ) ),
-				new ActionData( "ログ情報"					, () => OpenAdd( DMType.TEXT_TAB_6		, m_logDataCreator ) ),
-				new ActionData( "iOS クラッシュ情報"		, () => OpenAdd( DMType.TEXT_TAB_6		, new iOSCrashReportListCreator() ) ),
+				new ActionData( "テキスト表示サンプル"			, () => OpenAdd( DMType.TEXT_TAB_6		, new TextListCreatorExample() ) ),
+				new ActionData( "ボタン表示サンプル 2列"		, () => OpenAdd( DMType.BUTTON_COL_2	, new TextListCreatorExample() ) ),
+				new ActionData( "ボタン表示サンプル 3列"		, () => OpenAdd( DMType.BUTTON_COL_3	, new TextListCreatorExample() ) ),
+				new ActionData( "システム情報"					, () => OpenAdd( DMType.TEXT_TAB_6		, new SystemInfoListCreator() ) ),
+				new ActionData( "システムコマンド"				, () => OpenAdd( DMType.COMMAND_TAB_6	, new SystemCommandListCreator() ) ),
+				new ActionData( "ゲームオブジェクト一覧"		, () => OpenAdd( DMType.COMMAND_TAB_6	, new GameObjectListCreator() ) ),
+				new ActionData( "ログ情報"						, () => OpenAdd( DMType.TEXT_TAB_6		, m_logDataCreator ) ),
+				new ActionData( "iOS クラッシュ情報"			, () => OpenAdd( DMType.TEXT_TAB_6		, new iOSCrashReportListCreator() ) ),
+				new ActionData( "読み込み済みテクスチャ一覧"	, () => OpenAdd( DMType.TEXT_TAB_6		, new LoadedObjectListCreator<Texture>() ) ),
+				new ActionData( "読み込み済みマテリアル一覧"	, () => OpenAdd( DMType.TEXT_TAB_6		, new LoadedObjectListCreator<Material>() ) ),
 			};
 		}
 
