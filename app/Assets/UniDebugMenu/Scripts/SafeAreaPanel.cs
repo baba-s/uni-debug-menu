@@ -2,7 +2,6 @@
 
 namespace UniDebugMenu.Internal
 {
-	[ExecuteInEditMode]
 	public sealed class SafeAreaPanel : MonoBehaviour
 	{
 		//==============================================================================
