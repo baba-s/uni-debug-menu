@@ -168,6 +168,12 @@ namespace UniDebugMenu.Example
 				creator.Create
 				(
 					TabType.NONE,
+					() => "トースト表示",
+					new ActionData( "実行", () => { } )
+				),
+				creator.Create
+				(
+					TabType.NONE,
 					() => "ForceCrash",
 					new ActionData( "AccessViolation"		, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.AccessViolation		) ),
 					new ActionData( "FatalError"			, () => UnityEngine.Diagnostics.Utils.ForceCrash( UnityEngine.Diagnostics.ForcedCrashCategory.FatalError			) ),
