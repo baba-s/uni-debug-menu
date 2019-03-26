@@ -52,6 +52,7 @@ namespace UniDebugMenu.Example
 				new ActionData( "ボタン表示サンプル 2列"		, () => OpenAdd( DMType.BUTTON_COL_2	, new TextListCreatorExample() ) ),
 				new ActionData( "ボタン表示サンプル 3列"		, () => OpenAdd( DMType.BUTTON_COL_3	, new TextListCreatorExample() ) ),
 				new ActionData( "システム情報"					, () => OpenAdd( DMType.TEXT_TAB_6		, new SystemInfoListCreator() ) ),
+				new ActionData( "プロファイラ情報"				, () => OpenAdd( DMType.TEXT_TAB_6		, new ProfilerInfoListCreator() ) ),
 				new ActionData( "システムコマンド"				, () => OpenAdd( DMType.COMMAND_TAB_6	, new SystemCommandListCreator() ) ),
 				new ActionData( "ゲームオブジェクト一覧"		, () => OpenAdd( DMType.COMMAND_TAB_6	, new GameObjectListCreator() ) ),
 				new ActionData( "ログ情報"						, () => OpenAdd( DMType.TEXT_TAB_6		, m_logDataCreator ) ),
